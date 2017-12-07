@@ -20,6 +20,16 @@
 
 ---
 
+### Broken link: https://github.com/Akryum/packt-vue-project-guide/
+
+#### Location:
+
+> [Missing Github repo](https://github.com/Akryum/packt-vue-project-guide/)
+
+---
+
+---
+
 ## Chapter 4. Project 3 - Support Center
 
 ---
@@ -49,6 +59,14 @@
     (https://github.com/Akryum/packt-vue-project-guide/tree/master/chapter5-download)
     and extract the Stylus files into a style folder inside the src
     directory.Extract the assets folder too.
+
+> Other Locations:
+>
+> _FAQ - Consuming an API > Server setup_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    You can download the server files (https://github.com/Akryum/packt-vue-project-guide/tree/master/chapter5-download). Extract them into another folder than our app and run the following commands to install the dependencies and launch the server:
 
 ---
 
@@ -208,7 +226,7 @@
 
 ---
 
-### Clarification needed
+### Clarification needed\**\**
 
 #### Location:
 
@@ -219,6 +237,78 @@
 
     That is all we need to have routing working! You can now try to change the URL in your browser to either http://localhost:4000/#/ or http://localhost:4000/#/faq and get a different page each time:
 
-#### Proposed change**\***:
+#### Proposed change:
 
     Just noting here that the port number will be different based on configuration. This may be noted in the next Chapter (as it stands, Advanced setup), but if not, it may be worth noting. Will try to remember to come back to this.
+
+---
+
+---
+
+### Word exclusion: create
+
+#### Location:
+
+> _FAQ - Consuming an API_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    In this section, we will the FAQ page, which will get data from the server.
+
+#### Proposed change:
+
+    In this section, we will create the FAQ page, which will get data from the server.
+
+---
+
+---
+
+### Word exclusion: app
+
+#### Location:
+
+> _FAQ - Consuming an API > Server setup_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    This is our first that will communicate with a server.
+
+#### Proposed change:
+
+    This is our first app that will communicate with a server.
+
+---
+
+---
+
+### Wrong link: Need full server files
+
+### Clarity
+
+### Crash: possible white space or return character issue?
+
+#### Location:
+
+> _FAQ - Consuming an API > Server setup_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    You can download the server files (https://github.com/Akryum/packt-vue-project-guide/tree/master/chapter5-download). Extract them into another folder than our app and run the following commands to install the dependencies and launch the server:
+
+#### Proposed change:
+
+    You can download the server files (https://github.com/Akryum/packt-vue-project-guide/tree/master/chapter5-download). Extract them into another folder outside of our support-center client app and run the following commands to install the dependencies and launch the server:
+
+> Crash error:
+
+    Vuejs2WebDevelopmentProjects_Code/Chapter04/server_folder/node_modules/nedb/lib/datastore.js:77
+    if (err) { throw err; }
+    Error: More than 10% of the data file is corrupt, the wrong beforeDeserialization hook may be used. Cautiously refusing to start NeDB to prevent dataloss
+    at Persistence.treatRawData
+    ...
+    [nodemon] app crashed - waiting for file changes before starting...
+
+> Fix:
+
+    Remove trailing white space in db/tickets.db and db/users.db
+    $ npm start
