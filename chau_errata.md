@@ -283,8 +283,6 @@
 
 ### Wrong link: Need full server files
 
-### Clarity
-
 ### Crash: possible white space or return character issue?
 
 #### Location:
@@ -312,3 +310,168 @@
 
     Remove trailing white space in db/tickets.db and db/users.db
     $ npm start
+
+---
+
+---
+
+### Typo: main => src
+
+#### Location:
+
+> _FAQ - Consuming an API > Loading animation_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    Create a new global-components.js file next to the main.js file in the main folder.
+
+#### Proposed change:
+
+    Create a new global-components.js file next to the main.js file in the src folder.
+
+---
+
+---
+
+### Word exclusion: fetch
+
+#### Location:
+
+> _FAQ - Consuming an API > Loading animation > Extending Vue with our own
+> plugin_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    Since we will use in multiple components for our application and we want to reuse code as much as possible, it would be nice to have a method on all of our components that makes a request to the server with a predefined URL.
+
+#### Proposed change:
+
+    Since we will use fetch in multiple components for our application and we want to reuse code as much as possible, it would be nice to have a method on all of our components that makes a request to the server with a predefined URL.
+
+---
+
+---
+
+### Typo: remove comma
+
+#### Location:
+
+> _FAQ - Consuming an API > Creating a plugin (step 3)_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    Let's try creating a very simple plugin, by exporting an object with an install method:
+
+#### Proposed change:
+
+    Let's try creating a very simple plugin by exporting an object with an install method:
+
+---
+
+---
+
+### Word exclusion: install method
+
+#### Location:
+
+> _FAQ - Consuming an API > Plugin options_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    We can configure the with an options parameter:
+
+#### Proposed change:
+
+    We can configure the install method with an options parameter:
+
+---
+
+---
+
+### Word exclusion: going
+
+#### Location:
+
+> _FAQ - Consuming an API > Fetch method_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    Now, we are to write the $fetch method.
+
+#### Proposed change:
+
+    Now, we are going to write the $fetch method.
+
+---
+
+---
+
+### Word exclusion: implement
+
+#### Location:
+
+> _FAQ - Consuming an API > Reusing code with mixins_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    We have seen how to plugins,...
+
+#### Proposed change:
+
+    We have seen how to implement plugins,...
+
+---
+
+---
+
+### Typo: Step 1 is doubled
+
+#### Location:
+
+> _FAQ - Consuming an API > Reusing code with mixins (above Fetching remote
+> data)_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    1 1 The definition object contains the options of mixin 1.
+
+#### Proposed change:
+
+    1 The definition object contains the options of mixin 1.
+
+---
+
+---
+
+### Word exclusion: remove
+
+#### Location:
+
+> _FAQ - Consuming an API > Reusing code with mixins (above Fetching remote
+> data)_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    You can now the duplicate remoteDataLoading: 42, from the FAQ component definition.
+
+#### Proposed change:
+
+    You can now remove the duplicate remoteDataLoading: 42, from the FAQ component definition.
+
+---
+
+---
+
+### Word exclusion: in
+
+#### Location:
+
+> _FAQ - Consuming an API > Fetching remote data_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    We have a problem--each component our RemoteData mixin will have different data properties to fetch.
+
+#### Proposed change:
+
+    We have a problem--each component in our RemoteData mixin will have different data properties to fetch.
