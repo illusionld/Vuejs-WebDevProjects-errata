@@ -2,13 +2,13 @@
 
 ---
 
-### Short summary
+### Template
 
 #### Location:
 
-> _Location details_
+> _Location path_
 >
-> [ch04lvl1sec23](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec23/general-app-structure)
+> [LinkDescription](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec23/general-app-structure)
 
     original text that may need to be corrected
 
@@ -175,7 +175,7 @@
         <main class="faq">
           <h1>Frenquently Asked Questions</h1>
         </main>
-      </template>
+    </template>
 
 #### Proposed change:
 
@@ -183,7 +183,7 @@
         <main class="faq">
           <h1>Frequently Asked Questions</h1>
         </main>
-      </template>
+    </template>
 
 ---
 
