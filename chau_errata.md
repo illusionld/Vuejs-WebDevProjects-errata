@@ -168,8 +168,8 @@
 > [ch04lvl1sec23](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec23/general-app-structure)
 
     After the template, add a style tag importing the main Stylus file from the
-    styles folder you downloaded earlier in theSetting up the project section. Don't
-    forget to specify that we are using stylus with the lang attribute:
+    styles folder you downloaded earlier in theSetting up the project section.
+    Don't forget to specify that we are using stylus with the lang attribute:
 
 #### Proposed change:
 
@@ -573,3 +573,41 @@
         }
         this.loading = false
     },
+
+---
+
+---
+
+### Word exclusion: will create
+
+#### Location:
+
+> _Support tickets_
+>
+> [ch04lvl1sec25](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec25/support-tickets)
+
+    In this last part, we will an authenticated section of our app, where the user will be able to add and view support tickets...
+
+#### Proposed change:
+
+    In this last part, we will create the authenticated section of our app...
+
+---
+
+---
+
+### Word exclusion: take
+
+### Typo: Remove comma
+
+#### Location:
+
+> _Support tickets > User authentication_
+>
+> [ch04lvl1sec25](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec25/support-tickets)
+
+    In this first section, we will care of the user system of our app. We will have both login and sign up components, to be able to create new users.
+
+#### Proposed change:
+
+    In this first section, we will take care of the user system of our app. We will have both login and sign up components to be able to create new users.
