@@ -611,3 +611,21 @@
 #### Proposed change:
 
     In this first section, we will take care of the user system of our app. We will have both login and sign up components to be able to create new users.
+
+---
+
+---
+
+### Word exclusion: access
+
+#### Location:
+
+> _Support tickets > User authentication > Another plugin_
+>
+> [ch04lvl1sec25](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec25/support-tickets)
+
+    We could then the state in component files when we need it, but it would be more convenient to be able to access it with a special getter called $state on the Vue prototype like we did for the fetch plugin.
+
+#### Proposed change:
+
+    We could then access the state in component files when...
