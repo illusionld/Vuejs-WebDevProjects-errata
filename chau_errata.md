@@ -406,6 +406,38 @@
 
 ---
 
+### Typo resulting in broken code: awaitfetch => await fetch
+
+#### Location:
+
+> _FAQ - Consuming an API > Fetch method_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    export async function $fetch (url) {
+        const response = awaitfetch(`${baseUrl}${url}`)
+        if (response.ok) {
+          const data = await response.json()
+          return data
+        } else {
+          const error = new Error('error')
+        throw error } }
+
+#### Proposed change:
+
+    export async function $fetch (url) {
+        const response = await fetch(`${baseUrl}${url}`)
+        if (response.ok) {
+          const data = await response.json()
+          return data
+        } else {
+          const error = new Error('error')
+        throw error } }
+
+---
+
+---
+
 ### Word exclusion: implement
 
 #### Location:
@@ -475,3 +507,69 @@
 #### Proposed change:
 
     We have a problem--each component in our RemoteData mixin will have different data properties to fetch.
+
+---
+
+---
+
+### Word exclusion: error
+
+#### Location:
+
+> _FAQ - Consuming an API > Error Management_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    Finally, we could manage the that could occur for any resource request:
+
+#### Proposed change:
+
+    Finally, we could manage the error that could occur for any resource request:
+
+---
+
+---
+
+### Missing step: Resulting code at end of chapter skips removing certain code
+
+#### Location:
+
+> _FAQ - Consuming an API > Error Management_
+>
+> [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
+
+    We have now finished the FAQ component, whose script should now look as follows:
+    <script>
+    import RemoteData from '../mixins/RemoteData'
+
+    export default {
+        mixins: [
+            RemoteData({
+            questionList: 'questions',
+            }),
+        ],
+    }
+    </script>
+
+#### Proposed change:
+
+> Comment out or remove from FAQ.vue:
+
+    data() {
+        return {
+            error: null,
+            loading: false,
+        }
+    },
+
+    //...
+
+    async created() {
+        this.loading = true
+        try {
+            this.questions = await this.$fetch('questions')
+        } catch (e) {
+            this.error = e
+        }
+        this.loading = false
+    },
