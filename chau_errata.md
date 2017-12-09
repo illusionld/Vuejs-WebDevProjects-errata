@@ -654,7 +654,7 @@
 
 ---
 
-# Code not working as expected mid-chapter. Taking a break from this book until I see an update from Packt/author.
+# Code not working as expected a quarter through Support tickets section. Taking a break from this book until I see an update from Packt/author.
 
 ---
 
