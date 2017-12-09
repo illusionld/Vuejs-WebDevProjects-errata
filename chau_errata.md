@@ -629,3 +629,35 @@
 #### Proposed change:
 
     We could then access the state in component files when...
+
+---
+
+---
+
+### Word exclusion: take
+
+#### Location:
+
+> _Support tickets > User authentication > Login forms > Smart form_
+>
+> [ch04lvl1sec25](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec25/support-tickets)
+
+    This generic component will care of the very general structure of our form components, and will automatically call an operation function, display a loading animation and the eventual error messages thrown by the operation.
+
+#### Proposed change:
+
+    This generic component will take care of the very general structure...
+
+---
+
+---
+
+---
+
+# Code not working as expected mid-chapter. Taking a break from this book until I see an update from Packt/author.
+
+---
+
+---
+
+---
