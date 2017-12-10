@@ -142,8 +142,7 @@
 
 #### Location:
 
-> _General app structure > Routing and pages > Our first routes > Layouts with
-> router-view_
+> _General app structure > Routing and pages > Our first routes > Layouts with router-view_
 >
 > [ch04lvl1sec23](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec23/general-app-structure)
 
@@ -162,8 +161,7 @@
 
 #### Location:
 
-> _General app structure > Routing and pages > Our first routes > Layouts with
-> router-view_
+> _General app structure > Routing and pages > Our first routes > Layouts with router-view_
 >
 > [ch04lvl1sec23](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec23/general-app-structure)
 
@@ -184,8 +182,7 @@
 
 #### Location:
 
-> _General app structure > Routing and pages > Our first routes > Creating
-> routes_
+> _General app structure > Routing and pages > Our first routes > Creating routes_
 >
 > [ch04lvl1sec23](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec23/general-app-structure)
 
@@ -211,8 +208,7 @@
 
 #### Location:
 
-> _General app structure > Routing and pages > Our first routes > The router
-> object_
+> _General app structure > Routing and pages > Our first routes > The router object_
 >
 > [ch04lvl1sec23](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec23/general-app-structure)
 
@@ -230,8 +226,7 @@
 
 #### Location:
 
-> _General app structure > Routing and pages > Our first routes > The router
-> object_
+> _General app structure > Routing and pages > Our first routes > The router object_
 >
 > [ch04lvl1sec23](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec23/general-app-structure)
 
@@ -337,8 +332,7 @@
 
 #### Location:
 
-> _FAQ - Consuming an API > Loading animation > Extending Vue with our own
-> plugin_
+> _FAQ - Consuming an API > Loading animation > Extending Vue with our own plugin_
 >
 > [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
 
@@ -460,8 +454,7 @@
 
 #### Location:
 
-> _FAQ - Consuming an API > Reusing code with mixins (above Fetching remote
-> data)_
+> _FAQ - Consuming an API > Reusing code with mixins (above Fetching remote data)_
 >
 > [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
 
@@ -479,8 +472,7 @@
 
 #### Location:
 
-> _FAQ - Consuming an API > Reusing code with mixins (above Fetching remote
-> data)_
+> _FAQ - Consuming an API > Reusing code with mixins (above Fetching remote data)_
 >
 > [ch04lvl1sec24](https://www.packtpub.com/mapt/book/web_development/9781787127463/4/ch04lvl1sec24/faq---consuming-an-api)
 
@@ -647,17 +639,3 @@
 #### Proposed change:
 
     This generic component will take care of the very general structure...
-
----
-
----
-
----
-
-# Code not working as expected a quarter through Support tickets section. Taking a break from this book until I see an update from Packt/author.
-
----
-
----
-
----
